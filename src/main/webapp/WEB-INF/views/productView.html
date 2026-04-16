@@ -103,4 +103,6 @@
     </div>
 
 </body>
+<footer style="margin-top: 40px; padding: 10px; border-top: 1px solid #ddd; color: #666; font-size: 0.9em;">
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss') + ' | 학번: 2371452 | 성명: 유영민'}"></p>
 </html>
